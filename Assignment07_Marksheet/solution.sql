@@ -1,0 +1,7 @@
+-- Create Marksheet table
+
+-- Insert sample records
+
+-- Display students with Marks > 80
+
+-- Sort by Marks DESC
