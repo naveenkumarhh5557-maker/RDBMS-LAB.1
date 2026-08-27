@@ -1,7 +1,14 @@
--- Write your SQL here
+CREATE DATABASE CollegeDB;
 
--- Create Database
+USE CollegeDB;
 
--- Use Database
+CREATE TABLE Department (
+    DepartmentID NUMBER(5) PRIMARY KEY,
+    DepartmentName VARCHAR(20),
+    HOD VARCHAR(20)
+);
+"""
 
--- Create Department Table
+path = Path("/mnt/data/solution.sql")
+path.write_text(sql)
+print(f"Created: {path}")
