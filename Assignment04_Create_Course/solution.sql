@@ -1,5 +1,7 @@
--- Create Course table
+ALTER TABLE Student
+ADD Email VARCHAR2(30);
 
--- Insert three records
+ALTER TABLE Student
+ADD PhoneNumber NUMBER(10);
 
--- Display structure
+DESC Student;
