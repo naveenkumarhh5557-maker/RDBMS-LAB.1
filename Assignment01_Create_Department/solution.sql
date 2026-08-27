@@ -7,8 +7,3 @@ CREATE TABLE Department (
     DepartmentName VARCHAR(20),
     HOD VARCHAR(20)
 );
-"""
-
-path = Path("/mnt/data/solution.sql")
-path.write_text(sql)
-print(f"Created: {path}")
